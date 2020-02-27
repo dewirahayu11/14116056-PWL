@@ -1,0 +1,69 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+}
+.topnav {
+  overflow: hidden;
+  background-color: pink;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: black;       
+}
+.judul {
+  color: red;
+}
+.title h1 {
+  text-align:center;
+  flex:70%;
+}
+.title h2 {
+  text-align: center;
+  color:red   ;
+   flex:70%;
+}
+.title h3 {
+  text-align: center;
+   flex:70%;
+}
+.news_post_text p{
+  margin:10px 30px 10px 30px;
+   flex:30%;
+   height: 450px;
+   background-color: grey;
+   padding: 15px;
+   color: white;
+   text-align: center;
+   font-size: 14px;
+}
+
+.footer {
+  margin-top: 50px;       
+  width: 100%;
+  text-align: center;
+  line-height: 2.8;
+  background:pink;
+  color: black;
+
+}
+
