@@ -4,8 +4,21 @@
 	<title>TUGAS PRAKTIKUM 1 PWL</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="/assets/css/profile.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/mode_malam.css">
 </head>
 <body>
+	<script src="/assets/javascript/dark_mode.js"></script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 {%include "header.njk" %}
 {%include "navigasi.njk" %}
